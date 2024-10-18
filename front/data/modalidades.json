@@ -1,0 +1,45 @@
+ [
+    {
+      "id": "1",
+      "nome": "Modalidade 1",
+      "produtoId": "1",
+      "calcularIOF": true,
+      "aliquotaIOF": 0.0038,
+      "calcularTac": true,
+      "percentualPadrao": 2,
+      "tac": {
+        "valorMinimo": 500,
+        "valorMaximo": 5000
+      },
+      "parcelasCarencia": [3, 6, 9],
+      "garantiasNaoFidejussorias": [
+        {"id": "gnf1", "nome": "Imóvel"},
+        {"id": "gnf2", "nome": "Veículo"}
+      ],
+      "permitirGarantiasFidejussorias": true,
+      "juros": 0.05,
+      "mora": 0.01,
+      "multa": 0.02,
+      "iofAtraso": 0.0038,
+      "taxaPre": 0.03,
+      "taxaBNDES": 0.02
+    },
+    {
+      "id": "2",
+      "nome": "Modalidade 2",
+      "produtoId": "2",
+      "calcularIOF": false,
+      "calcularTac": false,
+      "parcelasCarencia": [6, 12],
+      "garantiasNaoFidejussorias": [
+        {"id": "gnf3", "nome": "Aplicação Financeira"}
+      ],
+      "permitirGarantiasFidejussorias": false,
+      "juros": 0.04,
+      "mora": 0.008,
+      "multa": 0.015,
+      "iofAtraso": 0.0038,
+      "taxaPre": 0.025,
+      "taxaBNDES": 0.018
+    }
+  ]
